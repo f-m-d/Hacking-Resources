@@ -1,0 +1,31 @@
+=================================================================
+
+ ISO - International Organization for Standardization
+ https://www.iso.org/home.html
+
+=================================================================
+
+ Open Web Application Security Project 
+ https://www.owasp.org/index.php/Main_Page
+
+=================================================================
+
+ CIS Center for Internet Security
+ https://www.cisecurity.org/
+
+=================================================================
+
+ NIST: National Institute of Standards and Technology
+ https://www.nist.gov/
+
+=================================================================
+
+ PCI Security - Official PCI Security Standards Council Site
+ https://www.pcisecuritystandards.org/pci_security/
+
+=================================================================
+
+ North American Electric Reliability Corporation
+ https://www.nerc.com/Pages/default.aspx
+
+=================================================================

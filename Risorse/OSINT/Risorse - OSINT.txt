@@ -1,0 +1,5 @@
+Sito per i data breaches
+https://www.privacyrights.org/about
+
+Framework per l'OSINT: contiene altri siti al suo interno
+https://osintframework.com/
