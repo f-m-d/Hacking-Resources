@@ -1,0 +1,34 @@
+=======================================================================
+
+ REQUISITI: SISTEMA CAPACE DI INTERPRETARE "PYTHON" (EX: LINUX-BASED)
+
+=======================================================================
+
+
+ PER EFFETTUARE UN ENUMERAZIONE (TRAMITE BRUTEFORCE) DEI SOTTO/DOMINI,
+ USA "SUBBRUTE": UN BRUTEFORCER DI SOTTODOMINI, RECORD DNS ETC.
+
+	==============================================
+	git clone https://github.com/TheRook/subbrute
+
+	cd subbrute
+	==============================================
+
+
+ UTILIZZA SUCCESSIVAMENTE IL PROGRAMMA TRAMITE PYTHON:
+
+
+	==============================================
+	python subbrute.py DOMINIO_DA_ATTACCARE
+	==============================================
+
+
+ PER MAGGIORI INFORMAZIONI SUL PROGRAMMA:
+
+
+	==============================================
+	python subbrute.py -h
+	==============================================
+
+
+=======================================================================
