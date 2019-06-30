@@ -1,0 +1,37 @@
+=======================================================================
+
+ REQUISITI: UNA CONNESSIONE AD INTERNET
+
+=======================================================================
+
+ ESSENDO CHE VI FOSSERO VARIE POSSIBILITA, OVVERO
+ QUELLA CHE IL DOMINIO FOSSE COLLEGATO DIRETTAMENTE
+ ALL'INDIRIZZO IP DELLA MACCHINA: BASTA USARE
+ USO STORICO DEI DNS, POTREBBERO AVERE L'IP
+ DELLA MACCHINA ORIGINALE USATA.
+
+
+ SE IL DOMINIO HA 1 ANNO DI VITA, E' VISITATO SPESSO
+ OPPURE E' PRESENTE SUI MOTORI DI RICERCA,
+ SARA' PIU' FACILE OTTENERE INFORMAZIONI:
+
+ RISORSE:
+
+	=================================================
+	https://toolbar.netcraft.com/site_report
+	https://securitytrails.com/dns-trails
+	https://dnshistory.org/
+	https://viewdns.info/iphistory/	(OTTIMO)
+	https://completedns.com/dns-history/ (OTTIMO)
+	=================================================
+
+
+ OPPURE USANDO UNO STRUMENTO DA COMMAND LINE:
+
+
+	==============================================================
+	 https://github.com/vincentcox/bypass-firewalls-by-DNS-history
+	==============================================================
+
+
+=======================================================================

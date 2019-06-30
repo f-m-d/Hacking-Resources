@@ -1,0 +1,22 @@
+============================================================
+
+ REQUISITI: CONNESSIONE AD INTERNET
+
+============================================================
+
+
+ PURTROPPO NON ESISTE UN VERO E PROPRIO MEZZO DI DIFESA:
+ LA STORY DEI DNS USATI NON PUO' ESSERE CANCELLATA,
+ CON I CONSEGUENTI IP VISIBILI ONLINE.
+
+
+ ALCUNE SOLUZIONI POTREBBERO ESSERE QUELLE DI:
+	
+
+	==============================
+	- RICHIESTA DI UN NUOVO IP
+	- CAMBIO SOLUZIONE DI HOSTING
+	==============================
+
+
+============================================================
