@@ -1,0 +1,50 @@
+===============================================================================
+
+ REQUISITI: USARE I PROGRAMMI DIG/HOST (IN ESEMPIO, SU LINUX) O NSLOOKUP (WIN)
+
+===============================================================================
+
+ CON QUESTO ATTACCO CERCHI DI OTTENERE INFO RIGUARDO L'HOST DA ATTACCARE:
+ INTERROGHI I DNS TRAMITE QUERY PER OTTENERE IP O DOMINI.
+ I RECORD TROVATI NON POSSONO ESSERE OSCURATI (SERVONO AD ALCUNI SERVIZI)
+ E POTRESTI TROVARE ALCUNI SERVIZI (COME AD ESEMPIO "MX", OVVERO MAIL)
+
+
+ PROCEDI INSTALLANDO "HOST" E "DIG":
+
+
+	=====================
+	apt install host dig
+	=====================
+
+
+ DA QUI PUOI USARE I DUE STRUMENTI, TIPO:
+
+
+	=====================
+	host DOMINIO
+	# ESEMPIO
+	host hacklog.net
+	=====================
+
+ OPPURE:
+	
+
+	=====================
+	dig DOMINIO
+	# ESEMPIO
+	dig hacklog.net
+	=====================
+
+
+ IN WINDOWS:
+
+
+	=====================
+	nslookup DOMINIO
+	# ESEMPIO
+	nslookup hacklog.net
+	=====================
+
+
+===============================================================================
