@@ -1,0 +1,8 @@
+Se sei il proprietario del dominio,
+puoi decidere di oscurare i tuoi dati personali.
+
+Questa funzione puo' essere applicata a domini generici (.com, .net, .org)
+e non a domini territoriali (.it, .de, .eu etc.)
+
+In sintesi: bisogna far richiesta alla societa' che offre il dominio
+(Puoi ottenere dati su chi possiede il dominio tramite WHOIS stesso)

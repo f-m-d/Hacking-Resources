@@ -1,0 +1,19 @@
+PINGANDO UN DOMINIO, OTTENIAMO:
+
+	ping wikipedia.org
+
+	Pinging wikipedia.org [91.198.174.192] with 32 bytes of data:
+	Reply from 91.198.174.192: bytes=32 time=42ms TTL=55
+	Reply from 91.198.174.192: bytes=32 time=41ms TTL=55
+	Reply from 91.198.174.192: bytes=32 time=50ms TTL=55
+	Reply from 91.198.174.192: bytes=32 time=41ms TTL=55
+
+	Ping statistics for 91.198.174.192:
+    	Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+	Approximate round trip times in milli-seconds:
+	Minimum = 41ms, Maximum = 50ms, Average = 43ms
+
+DA QUI, POSSIAMO USARE IL PROGRAMMA WHOIS PER OTTENERE INFO
+LA SOCIETA' DI HOSTING O IL PROPRIETARIO:
+
+	whois 91.198.174.197

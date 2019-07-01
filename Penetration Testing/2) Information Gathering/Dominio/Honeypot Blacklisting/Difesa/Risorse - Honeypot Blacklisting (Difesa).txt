@@ -1,0 +1,22 @@
+HONEYPOT: SERVIZI USATI PER CONOSCERE E PREVENIRE INDIRIZZI IP
+I QUALI SONO CONSIDERATI ATTACANTI O HACKER
+(USANDO DEI SITI ESCA VULNERABILI PER RINTRACCIARLI)
+
+UNA BUONA PRASSI POTREBBE ESSERE DI INTERFACCIARE IL PROPRIO
+SERVER O APPLICAZIONE CON UN HONEYPOT USATA PER BLOCCARE I VARI IP:
+
+https://www.projecthoneypot.org/
+https://www.maxmind.com/en/high-risk-ip-sample-list
+https://www.spamhaus.org/drop/drop.lasso
+http://www.cinsscore.com/list/ci-badguys.txt
+http://lists.blocklist.de/lists/all.txt
+https://blocklist.greensnow.co/greensnow.txt
+https://www.stopforumspam.com/
+https://www.torproject.org/
+https://akismet.com/
+
+ESISTONO SCRIPT USATI PER BLOCCARE GLI IP,
+PRESI DA I SERVIZI SOPRA CITATI.
+
+https://github.com/trick77/ipset-blacklist
+

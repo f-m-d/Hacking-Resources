@@ -1,0 +1,8 @@
+LA COSA  PIU' SICURA DA FARE SAREBBE DI SPOSTARE LE RISORSE
+SU UN ALTRO SERVER:
+
+INOLTRE SI CONSIGLIA DI SPOSTARE SU CLOUD LE RISORSE STATICHE:
+
+https://aws.amazon.com/it/s3/
+https://cloud.google.com/storage/
+https://azure.microsoft.com/it-it/services/storage/

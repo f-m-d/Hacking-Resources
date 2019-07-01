@@ -1,0 +1,32 @@
+QUESTO TIPO DI ATTACCO PUO' ESSERE UTILIZZATO PER VERIFICARE "MISCONFIG".
+QUANDO UN ADMIN LASCIA INALTERATI I DNS DOPO L'INSTALLAZIONE DEL REVERSE PROXY:
+POTREBBE AVER LASCIATO SOTTOINDIRIZZI CHE PUNTANO ANCORA ALL'INDIRIZZO ORIGINALE.
+
+QUESTO SUCCEDE POICHE' ALCUNI REVERSE PROXY HANNO DIFFICOLTA' A RISOLVERE MOLTI PROTOCOLLI
+DIVERSI DALL' HTTP/S:
+
+ESEMPIO: victim.com
+
+	direct.victim.com
+	direct-connect.victim.com
+
+	ftp.victim.com
+
+	host.victim.com
+
+	mail.victim.com
+	webmail.victim.com
+	imap.victim.com
+	smtp.victim.com
+	pop.victim.com
+	pop3.victim.com
+
+	cpanel.victim.com
+	panel.victim.com
+	webpanel.victim.com
+	
+	admin.victim.com
+
+	test.victim.com
+
+	vnc.victim.com

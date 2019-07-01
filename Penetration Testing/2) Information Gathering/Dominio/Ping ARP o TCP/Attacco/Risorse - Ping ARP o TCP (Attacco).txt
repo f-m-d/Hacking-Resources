@@ -1,0 +1,11 @@
+Per effettuare il ping ARP/TCP basta installare:
+
+	apt install nmap
+
+	nmap -sn -PE INDIRIZZOIP_O_DOMINIO
+
+Legenda: -sn = Consente di fare request TCP (null)
+	 -PE = Consente di fare request ICMP echo
+Optional --send-ip = Ignora risoluzione dei MAC Addresses (Quando si vuole verificare un IP Locale)
+	 -PM = ICMP Addresses Mask , -PP = Timestamp: Usato nel caso host ignori richieste ECHO ICMP ma
+					   ma non altre di tipo ICMP.

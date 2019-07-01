@@ -1,0 +1,11 @@
+PER PREVENIRE CHE SIA LA TUA WEB APP AD INVIARE MAIL
+(E DI CONSEGUENZA AD ESPORRE IL TUO INDIRIZZO IP)
+PUOI AFFIDARTI A SERVIZI SMTP ESTERNI, COME:
+
+https://mailchimp.com/
+https://www.mailjet.com/
+https://www.mailgun.com/
+https://sendgrid.com/
+
+https://firebase.google.com/docs/cloud-messaging/
+https://aws.amazon.com/it/ses/

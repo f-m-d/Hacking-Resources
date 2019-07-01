@@ -1,0 +1,3 @@
+Si puo' mitigare tramite regole su IPTABLES
+
+Consiglio: non disabilitare la possibilita' di essere pingati.

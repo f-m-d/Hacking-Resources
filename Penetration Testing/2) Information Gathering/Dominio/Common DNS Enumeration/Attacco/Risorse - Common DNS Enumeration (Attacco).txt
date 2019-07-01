@@ -25,7 +25,6 @@
 
  PER MAGGIORI INFORMAZIONI SUL PROGRAMMA:
 
-
 	==============================================
 	python subbrute.py -h
 	==============================================

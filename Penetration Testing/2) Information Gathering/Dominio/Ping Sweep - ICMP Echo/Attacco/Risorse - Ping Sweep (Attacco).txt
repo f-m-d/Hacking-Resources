@@ -1,0 +1,20 @@
+Per effettuare un Ping Sweep basta fare:
+
+ping DOMINIO_DELL_HOST
+
+==========================================================
+Esempio: ping linux.org
+
+Pinging linux.org [104.27.166.219] with 32 bytes of data:
+Reply from 104.27.166.219: bytes=32 time=25ms TTL=55
+Reply from 104.27.166.219: bytes=32 time=24ms TTL=55
+Reply from 104.27.166.219: bytes=32 time=124ms TTL=55
+Reply from 104.27.166.219: bytes=32 time=34ms TTL=55
+
+Ping statistics for 104.27.166.219:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 24ms, Maximum = 124ms, Average = 51ms
+==========================================================
+
+Facendo cosi' ottieni info l'IP al quale e' associato il dominio (104.27.166.219)

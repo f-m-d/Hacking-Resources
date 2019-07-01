@@ -1,0 +1,19 @@
+PER SAPERNE DI PIU' SUL DOMINIO, PUOI USARE WHOIS:
+
+	apt install whois
+
+	whois DOMINIO.DA.ATTACCARE
+
+
+
+
+ALTRE RISORSE UTILI:
+
+https://whois.net/
+https://www.whois.com/whois/
+https://whois.icann.org/en/
+https://www.register.it/domains/whois.html
+https://www.mydomain.com/whois/whois.bml
+https://web-whois.nic.it/
+http://whois.domaintools.com/
+https://who.is/
