@@ -1,0 +1,47 @@
+=======================================================================
+
+ REQUISITI: CONNESSIONE AD INTERNET
+
+=======================================================================
+
+
+ PER OTTENERE PIU' INFORMAZIONI SUL DOMINIO,
+ PUOI USARE IL PROGRAMMA WHOIS:
+
+
+	===========================
+	apt install whois
+
+	whois DOMINIO.DA.ATTACCARE
+	# ESEMPIO
+	whois hacklog.net
+	==========================
+
+
+ INFORMAZIONI UTILI POSSONO ESSERE:
+
+
+	=============================================
+	- DATE REGISTRAZ., AGGIORNAMENTO E SCADENZA
+	- INTESTATARIO DEL DOMINIO
+	- REGISTAR (SOCIETA' CHE PROVVEDE IL DOMINIO)
+	- NAMESERVER (DNS CHE RISOLVONO GLI IP)
+	=============================================
+
+
+ ALTRE RISORSE UTILI, UTILIZZABILI DA WEB BROWSER:
+
+
+	==============================================
+	https://whois.net/
+	https://www.whois.com/whois/
+	https://whois.icann.org/en/
+	https://www.register.it/domains/whois.html
+	https://www.mydomain.com/whois/whois.bml
+	https://web-whois.nic.it/
+	http://whois.domaintools.com/
+	https://who.is/
+	==============================================
+
+
+=======================================================================
