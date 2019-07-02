@@ -1,3 +1,15 @@
-Si puo' mitigare tramite regole su IPTABLES
+=======================================================================
 
-Consiglio: non disabilitare la possibilita' di essere pingati.
+ REQUISITI: IP TABLES, INFRASTRUTTURE INTERMEDIE
+
+=======================================================================
+
+
+ SI PUO' MITIGARE CON REGOLE NELLE IP TABLES,
+ MA ESISTONO METODI PIU' EFFICACI PER COPRIRE
+ L'IP REALE (AD ESEMPIO: INFRASTRUTTURE INTERMEDIE)
+
+
+ CONSIGLIABILE: NON DISABILITARE LA POSSIBILITA' DI ESSERE PINGATI
+
+=======================================================================

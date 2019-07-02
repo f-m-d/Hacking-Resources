@@ -1,20 +1,44 @@
-Per effettuare un Ping Sweep basta fare:
+=======================================================================
 
-ping DOMINIO_DELL_HOST
+ REQUISITI: CONNESSIONE AD INTERNET, COMANDO "PING"
 
-==========================================================
-Esempio: ping linux.org
+=======================================================================
 
-Pinging linux.org [104.27.166.219] with 32 bytes of data:
-Reply from 104.27.166.219: bytes=32 time=25ms TTL=55
-Reply from 104.27.166.219: bytes=32 time=24ms TTL=55
-Reply from 104.27.166.219: bytes=32 time=124ms TTL=55
-Reply from 104.27.166.219: bytes=32 time=34ms TTL=55
 
-Ping statistics for 104.27.166.219:
-    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
-Approximate round trip times in milli-seconds:
-    Minimum = 24ms, Maximum = 124ms, Average = 51ms
-==========================================================
+ PER EFFETTUARE UN PING SWEEP, BASTA EFFETTUARE:
 
-Facendo cosi' ottieni info l'IP al quale e' associato il dominio (104.27.166.219)
+
+	=======================
+	ping DOMINIO_DELL_HOST
+	ping IP_DELL_HOST
+
+	# ESEMPIO
+	ping linux.org
+	ping 1.2.3.4
+	=======================
+
+
+	==========================================================
+	ESEMPIO OUTPUT: ping linux.org
+
+	Pinging linux.org [104.27.166.219] with 32 bytes of data:
+	Reply from 104.27.166.219: bytes=32 time=25ms TTL=55
+	Reply from 104.27.166.219: bytes=32 time=24ms TTL=55
+	Reply from 104.27.166.219: bytes=32 time=124ms TTL=55
+	Reply from 104.27.166.219: bytes=32 time=34ms TTL=55
+	
+	Ping statistics for 104.27.166.219:
+	Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+	Approximate round trip times in milli-seconds:
+	Minimum = 24ms, Maximum = 124ms, Average = 51ms
+	==========================================================
+
+
+ SE PINGI IL DOMINIO, OTTERRAI UN INDIRIZZO IP (IN EX: 104.27.166.219)
+ 
+
+ ATTENZIONE: L'IP TROVATO POTREBBE ESSERE DI UN'INFRASTRUTTURA INTERMEDIA,
+ SEGUI GLI ALTRI ATTACCHI AL DNS PER TROVARE L' IP REALE O AVER CONFERMA.
+
+
+=======================================================================
