@@ -1,8 +1,25 @@
-Se sei il proprietario del dominio,
-puoi decidere di oscurare i tuoi dati personali.
+===========================================================================
 
-Questa funzione puo' essere applicata a domini generici (.com, .net, .org)
-e non a domini territoriali (.it, .de, .eu etc.)
+ REQUISITI: CONNESSIONE AD INTERNET
 
-In sintesi: bisogna far richiesta alla societa' che offre il dominio
-(Puoi ottenere dati su chi possiede il dominio tramite WHOIS stesso)
+===========================================================================
+
+
+ OGNIVOLTA CHE UN DOMINIO VIENE REGISTRATO,
+ IL REGISTRAR NE DEVE RENDERE PUBBLICI I DATI.
+
+
+ TUTTAVIA, SE SEI IL TITOLARE DEL DOMINIO,
+ PUOI CHIEDERE DI FAR OSCURARE I TUOI DATI PERSONALI
+ (FUNZIONE SPESSO VENDUTA DAL REGISTRAR STESSO)
+ 
+
+ QUESTA FUNZIONE PUO' ESSERE APPLICATA A DOMINI GENERICI (.com, .net, .org)
+ E NON A DOMINI TERRITORIALI (.it, .de, .eu etc.)
+
+
+ IN SINTESI: BISOGNA TROVARE IL REGISTRAR E CONTATTARLO
+ (PUOI OTTENERE DATI SU CHI OFFRE IL DOMINIO TRAMITE WHOIS)
+
+
+===========================================================================
