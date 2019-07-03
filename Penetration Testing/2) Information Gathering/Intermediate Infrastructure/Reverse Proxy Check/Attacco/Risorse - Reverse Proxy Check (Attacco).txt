@@ -4,6 +4,13 @@
 
 =======================================================================
 
+ IDEA: SCOVARE IL SERVER PROTETTO DA UN REVERSE PROXY
+
+
+	==============================================
+	CLIENT/ATTACCANTE ==> REVERSE PROXY ==> SERVER
+	==============================================
+
 
  PROVANDO CON UN INDIRIZZO IP (PING SWEEP, ARP/TCP):
 
