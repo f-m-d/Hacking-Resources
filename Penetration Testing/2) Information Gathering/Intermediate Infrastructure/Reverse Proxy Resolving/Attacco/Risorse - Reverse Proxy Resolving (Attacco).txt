@@ -1,25 +1,49 @@
-PERMETTE DI OTTENRE L'INDIRIZZO IP, IL QUALE E' PROTETTO DALL'HOSTING.
-PER QUESTO UTILIZZEREMO "WEBSPLOIT" CON IL MODULO ADEGUATO
+===========================================================================
+
+ REQUISITI: CONNESSIONE AD INTERNET, WEBSPLOIT
+
+===========================================================================
 
 
+ PERMETTE DI OTTENRE L'INDIRIZZO IP, IL QUALE E' PROTETTO DALL'HOSTING.
+ BASTA UTILIZZARE "WEBSPLOIT" CON IL MODULO ADEGUATO:
+
+
+ EX:
+
+
+	===================================================================
 	websploit
 
 	wsf > use web/MODULO_DEL_WEB_PROVIDER (ottenibili con show modules)
-EX:	wsf > use web/cloudflare_resolver
+	# ESEMPIO
+	wsf > use web/cloudflare_resolver
 
-	wsf:CloudFlare_Resolver > set target INDIRIZZOIP_O_DOMINIO
+
+	wsf:CloudFlare_Resolver > set target DOMINIO
+	# ESEMPIO
+	wsf:CloudFlare_Resolver > set target hacklog.net
 	wsf:CloudFlare_Resolver > run
+	===================================================================
 
 
-UNA VOLTA TROVATI DEI DOMINI SARA' FACILE RISALIRE AI LORO IP (PINGANDO, WHOIS ETC.)
-PER POI PROCEDERE AL PENTESTING.
+ UNA VOLTA TROVATI DEI DOMINI
+ SARA' FACILE RISALIRE AI LORO IP (PINGANDO, WHOIS ETC.)
+ PER POI PROCEDERE AL PENTESTING.
 
-PER ALTRI "CLOUDFLARE IP RESOLVER PROPRIETARI" (PER NON LASCIARE TRACCE):
 
-https://iphostinfo.com/cloudflare/
-https://cyber-hub.net/domain_resolver.php
-https://webresolver.nl/tools/cloudflare
-https://www.cuteseotools.net/cloudflare-resolver
-http://www.skypeipresolver.net/cloudflare.php
-https://mmoapi.com/cloudflare-ip-resolver
+ PER ALTRI "CLOUDFLARE IP RESOLVER PROPRIETARI"
+ (PER NON LASCIARE TRACCE):
 
+
+	=================================================
+	https://iphostinfo.com/cloudflare/
+	https://cyber-hub.net/domain_resolver.php
+	https://webresolver.nl/tools/cloudflare
+	https://www.cuteseotools.net/cloudflare-resolver
+	http://www.skypeipresolver.net/cloudflare.php
+	https://mmoapi.com/cloudflare-ip-resolver
+	=================================================
+
+
+===========================================================================
