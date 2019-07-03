@@ -1,11 +1,43 @@
-Per effettuare il ping ARP/TCP basta installare:
+===========================================================================
 
+ REQUISITI: CONNESSIONE AD INTERNET, NMAP O ZENMAP
+
+===========================================================================
+
+
+ NEL CASO NON FOSSE POSSIBILE PINGARE TRAMITE "ICMP",
+ PUOI PROVATE A PINGARE TRAMITE PROTOCOLLO "ARP"
+ OPPURE TRAMITE "TCP" SE HA LE PORTE 80 O 443 APERTE.
+ PER EFFETTUARE UN PING "ARP/TCP" BASTA USARE NMAP O ZENMAP:
+
+
+	==================================
 	apt install nmap
 
 	nmap -sn -PE INDIRIZZOIP_O_DOMINIO
+	==================================
 
-Legenda: -sn = Consente di fare request TCP (null)
-	 -PE = Consente di fare request ICMP echo
-Optional --send-ip = Ignora risoluzione dei MAC Addresses (Quando si vuole verificare un IP Locale)
-	 -PM = ICMP Addresses Mask , -PP = Timestamp: Usato nel caso host ignori richieste ECHO ICMP ma
-					   ma non altre di tipo ICMP.
+
+ LEGENDA:
+
+
+	=========================================
+	-sn = Consente di fare request TCP (null)
+ 	-PE = Consente di fare request ICMP echo
+	=========================================
+
+
+ OPTIONAL:
+
+
+	===============================================================
+	--send-ip =
+		Ignora risoluzione dei MAC Addresses
+		(Quando si vuole verificare un IP Locale)
+		-PM = ICMP Addresses Mask ,
+		-PP = Timestamp: Usato nel caso host ignori richieste
+			ECHO ICMP non altre di tipo ICMP.
+	===============================================================
+
+
+===========================================================================
