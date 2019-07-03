@@ -1,8 +1,22 @@
-LA COSA  PIU' SICURA DA FARE SAREBBE DI SPOSTARE LE RISORSE
-SU UN ALTRO SERVER:
+=======================================================================
 
-INOLTRE SI CONSIGLIA DI SPOSTARE SU CLOUD LE RISORSE STATICHE:
+ REQUISITI: CONNESSIONE AD INTERNET
 
-https://aws.amazon.com/it/s3/
-https://cloud.google.com/storage/
-https://azure.microsoft.com/it-it/services/storage/
+=======================================================================
+
+
+ LA COSA  PIU' SICURA DA FARE SAREBBE DI SPOSTARE LE RISORSE
+ SU UN ALTRO SERVER (A CHI USA CMS: AFFIDARSI ALLA DOC PER HOST ESTERNI)
+
+
+ INOLTRE SI CONSIGLIA DI SPOSTARE SU CLOUD LE RISORSE STATICHE:
+
+
+	===================================================
+	https://aws.amazon.com/it/s3/
+	https://cloud.google.com/storage/
+	https://azure.microsoft.com/it-it/services/storage/
+	===================================================
+
+
+=======================================================================
