@@ -1,10 +1,30 @@
-NEL CASO IL SISTEMA UTILIZZI LA FUNZIONE PHP PER INVIARE LA MAIL:
-	
-	mail();
+=======================================================================
 
-PUOI OTTENERE L'IP:
-- REGISTRANDO UN ACCOUNT
-- "PASSWORD DIMENTICATA"
-- FATTI MANDARE UNA MAIL 
-- ACCEDERE ALL'HEADER DELLA MAIL
-- OTTENERE L'IP DALL'HEADER
+ REQUISITI: CONNESSIONE AD INTERNET, MAIL E ATTACCANTE CHE USI PHP
+
+=======================================================================
+
+
+ NEL CASO IL SERVER UTILIZZI LA FUNZIONE PHP PER INVIARE LA MAIL:
+
+
+	=======	
+	mail();
+	=======
+
+
+ PUOI FARTI INVIARE UNA MAIL DAL SERVER ORIGINALE,
+ IN MODO DA ESPORRE IL SUO IP REALE:
+ ECCO UN ESEMPIO DI COME POTRESTI FARE.
+
+
+	================================
+	- REGISTRA UN ACCOUNT
+	- "PASSWORD DIMENTICATA"
+	- FATTI INVIARE UNA MAIL 
+	- ACCEDI ALL'HEADER DELLA MAIL
+	- OTTENI L'IP DALL'HEADER
+	================================
+
+
+=======================================================================
