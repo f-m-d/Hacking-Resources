@@ -1,0 +1,79 @@
+=======================================================================
+
+ REQUISITI: CONNESSIONE AD INTERNET
+
+=======================================================================
+
+
+ WAF = WEB APPLICATION FIREWALL
+
+
+ FUNGE DA REVERSE PROXY E FILTRA DIVERSI ATTACCHI 
+ A DANNI DI APPLICAZIONI WEB E WEB SERVER.
+
+
+ POSSONO ESSERE:
+
+
+	======================
+	- LIBRERIE
+	- ESTENSIONI FRAMEWORK
+	- MODULI WEB SERVER
+	======================
+
+
+ RISORSE:
+
+
+	========================
+	https://modsecurity.org/
+	========================
+
+
+======================================================================= 
+
+
+ IDS = INTRUDER DETECTION SISTEM
+
+
+ DETECTA ACCESSI NON AUTORIZZATI IN RETI O SISTEMI
+
+
+ E' POSSIBILE OTTENERE INFO DI BASE CON IL PROJECT (DEFUNTO):
+
+
+	=================================
+	 https://github.com/PHPIDS/PHPIDS
+	=================================
+
+
+ OPPURE DAL RECENTE "EXPOSE":
+
+
+	=================================
+	 https://github.com/enygma/expose
+	=================================
+
+ SNORT, UNO DEI MIGLIORI IDS:
+
+
+	======================	
+	https://www.snort.org/
+	======================
+
+
+=======================================================================
+
+ PER SVILUPPARE SOFTWARE SICURO, UTILIZZARE FRAMEWORKS COME:
+
+
+	============================
+	https://laravel.com/
+	https://symfony.com/
+	https://www.codeigniter.com/
+	https://cakephp.org/
+	https://framework.zend.com/
+	============================
+
+
+=======================================================================
