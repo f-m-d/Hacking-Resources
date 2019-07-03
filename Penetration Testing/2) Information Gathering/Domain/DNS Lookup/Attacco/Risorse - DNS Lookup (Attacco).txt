@@ -4,6 +4,7 @@
 
 ===============================================================================
 
+
  CON QUESTO ATTACCO CERCHI DI OTTENERE INFO RIGUARDO L'HOST DA ATTACCARE:
  INTERROGHI I DNS TRAMITE QUERY PER OTTENERE IP O DOMINI.
  I RECORD TROVATI NON POSSONO ESSERE OSCURATI (SERVONO AD ALCUNI SERVIZI)
@@ -26,6 +27,7 @@
 	# ESEMPIO
 	host hacklog.net
 	=====================
+
 
  OPPURE:
 	
