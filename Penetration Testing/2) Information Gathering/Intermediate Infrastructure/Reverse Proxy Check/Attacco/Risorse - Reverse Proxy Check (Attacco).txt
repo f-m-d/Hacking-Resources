@@ -1,0 +1,41 @@
+=======================================================================
+
+ REQUISITI: CONNESSIONE AD INTERNET, WHOIS
+
+=======================================================================
+
+
+ PROVANDO CON UN INDIRIZZO IP (PING SWEEP, ARP/TCP):
+
+
+	==================
+	whois INDIRIZZOIP
+	==================
+
+
+ SI POTRANNO OTTENERE LE INFORMAZIONI DEL TIPO:
+
+
+	=====================================================
+	-NETRANGE
+	-CIDR
+	-NETNAME
+	-NETHANDLE
+	-PARENT
+	-NETTYPE
+	-ORIGINAS
+	-ORGANIZATION (NOME DELLA SOCIETA' HOSTING DEL SITO)
+	=====================================================
+
+
+ NEL CASO VI FOSSE UN REVERSE PROXY (EX: CLOUDFLARE)
+ VUOL DIRE CHE SARA' IL R.P. A PROTEGGERE IL SERVER
+ SUL QUALE SI TROVA IL SITO HOSTATO.
+
+
+ DI CONSEGUENZA SAREBBE MEGLIO RISALIRE AL VERO INDIRIZZO IP
+ DEL SERVER DA ATTACCARE
+ (EX: M.C. DNS RESOLVING, DNS ENUMERATION, R.P RESOLVING)
+
+
+=======================================================================
