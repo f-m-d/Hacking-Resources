@@ -1,14 +1,28 @@
-ESISTE LA POSSIBILITA' DI BLOCCARE
-LE RICHIESTE DA DETERMINATI PAESI
+=======================================================================
 
-SI POSSONO EFFETTUARE BLOCCHI A LIVELLO DI:
-- WEB APPLICATION
-- SERVER
+ REQUISITI: CONNESSIONE AD INTERNET
 
-SONO FUNZIONI A VOLTE DISPONIBILI DAL REVERSE PROXY,
-NEL CASO SE NE STIA UTILIZZANDO UNO,
-OPPURE ESISTONO GENERATORI ONLINE PER CREARE
-UNA LISTA DI IP DA BLOCCARE TRAMITE CONFIG. SERVER:
+=======================================================================
+
+ ESISTE LA POSSIBILITA' DI BLOCCARE
+ LE RICHIESTE DA DETERMINATI PAESI
+
+ SI POSSONO EFFETTUARE BLOCCHI A LIVELLO DI:
+
+	=================
+	- WEB APPLICATION
+	- SERVER
+	=================
 
 
-https://www.ip2location.com/free/visitor-blocker
+ SONO FUNZIONI A VOLTE DISPONIBILI DAL REVERSE PROXY,
+ NEL CASO SE NE STIA UTILIZZANDO UNO,
+ OPPURE ESISTONO GENERATORI ONLINE PER CREARE
+ UNA LISTA DI IP DA BLOCCARE TRAMITE CONFIG. SERVER:
+
+	================================================
+	https://www.ip2location.com/free/visitor-blocker
+	================================================
+
+
+=======================================================================
