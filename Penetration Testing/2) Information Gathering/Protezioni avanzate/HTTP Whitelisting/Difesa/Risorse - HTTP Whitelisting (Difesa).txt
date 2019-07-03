@@ -1,0 +1,30 @@
+=======================================================================
+
+ REQUISITI: CONNESSIONE AD INTERNET O SERVER
+
+=======================================================================
+
+ ANDANDO A CONFIGURARE IL SERVER,
+ CON PROTOCOLLO "HTTP" APERTO SULLA PORTA 80
+ LO CONFIGURIAMO SOLO PER RISPONDERE AL PROXY SERVER.
+
+
+ QUESTA CONFIGURAZIONE PUO' ESSERE EFFETTUATA IN VARI MODI, TRA CUI:
+
+	================================================
+	- MODIFICANDO IL FIREWALL (IN LINUX: IPTABLES)
+	- MODIFICANDO .HTACCESS DEL SERVER, AGGIUNGENDO:
+	================================================
+
+
+PER IL FILE .HTACCESS, AGGIUNGERE:
+
+
+	=========================================
+	#SE L'IP E' DEL REVERSE PROXY
+	Allow from INDIRIZZOIP_DEL_REVERSE_PROXY1
+	Allow from INDIRIZZOIP_DEL_REVERSE_PROXY2
+
+	#NEL CASO NON SIA DAL REVERSE PROXY
+	Deny From All
+	=========================================
