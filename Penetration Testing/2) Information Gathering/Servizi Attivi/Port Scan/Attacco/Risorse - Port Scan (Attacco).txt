@@ -1,0 +1,66 @@
+=======================================================================
+
+ REQUISITI: CONNESSIONE AD INTERNET, NETCAT / NMAP O ZENMAP
+
+=======================================================================
+
+
+ TRAMITE L'UTILIZZO DI NMAP, POSSIAMO SCANNERIZZARE LE PORTE:
+
+
+	========================================
+	nmap -sS INDIRIZZOIP_O_HOST
+
+
+	# ESEMPIO
+	# ATTENZIONE: PUO' ALLARMARE GLI IDS
+	nmap -sS hacklog.net
+
+
+	# SE VUOI SALVARE I RISULTATI IN UN FILE
+	nmap -sS hacklog.net -o output.txt
+
+
+	# SE VUOI SCANSIONARE UNA PORTA SOLA
+	nmap -sS -p NUMEROPORTA INDIRIZZOIP_O_HOST
+
+	# ESEMPIO PER LA PORTA 80
+	nmap -sS -p 80 hacklog.net
+	========================================
+
+
+ LEGENDA:
+
+
+	============================
+	-sS = SCAN DI TIPO "SYN TCP"
+	============================
+
+
+=======================================================================
+
+
+ NEL CASO SI VOGLIA UTILIZZARE NETCAT:
+
+
+	========================================================
+	# SCAN DI VARIE PORTE CON NETCAT
+	nc -z -v -wNUMERO hacklog.net  PORTA_INIZIO - PORTA_FINE
+
+	# ESEMPIO
+	nc -z -v -w3 hacklog.net 1-500
+	========================================================
+
+
+
+ LEGENDA:
+
+
+	===============================================================
+	-Z = ZERO I/O MODE (USATO PER LO SCANNING)
+	-v = MODALITA' VERBOSE
+	-wNUMERO = TEMPO SCANSIONE DEL PROGRAMMA (PER "NUMERO" SECONDI)
+	===============================================================
+
+
+=======================================================================
