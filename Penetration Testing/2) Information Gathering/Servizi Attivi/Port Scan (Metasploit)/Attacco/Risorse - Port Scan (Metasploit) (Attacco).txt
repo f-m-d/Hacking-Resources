@@ -20,15 +20,15 @@
  DA QUI PUOI USARE NMAP PER ATTACCARE LA METASPLOITABLE:
 
 
-	=============================================
-	msf > nmap -v -sV 20.0.0.3 -oA metasploitable
+	==========================================================
+	msf > nmap -v -sV INDIRIZZOIP_O_DOMINIO -oA metasploitable
 	
 	# ESEMPIO
 	msf > nmap -v -sV 20.0.0.3 -oA metasploitable
 
 	# DB_NMAP SOSTITUISCE -oA
 	msf > db_nmap -v -sV 20.0.0.3 metasploitable
-	=============================================
+	==========================================================
 
 
  LEGENDA:

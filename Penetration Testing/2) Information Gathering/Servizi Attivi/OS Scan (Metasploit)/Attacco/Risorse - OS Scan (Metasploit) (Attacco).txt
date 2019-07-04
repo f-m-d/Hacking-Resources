@@ -1,0 +1,29 @@
+=======================================================================
+
+ REQUISITI: CONNESSIONE AD INTERNET, MSFCONSOLE, METASPLOIT, NMAP
+
+=======================================================================
+
+
+ UTILIZZANDO MSFCONSOLE PER EFFETTUARE LO SCAN:
+
+
+	========================================
+	msfconsole
+
+	msf >
+	========================================
+
+
+ DA QUI PUOI USARE NMAP PER SCANNERIZZARE L'OS:
+
+
+	==============================================================
+	msf > sudo nmap -v -O INDIRIZZOIP_O_DOMINIO -oA metasploitable
+	
+	# ESEMPIO
+	msf > sudo nmap -v -O 20.0.0.3 -oA metasploitable
+	==============================================================
+
+
+=======================================================================
