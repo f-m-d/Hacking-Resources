@@ -1,0 +1,69 @@
+=======================================================================
+
+ REQUISITI: CONNESSIONE AD INTERNET, MSFCONSOLE E METASPLOITABLE
+
+=======================================================================
+
+
+ MSFCONSOLE =
+	TOOL DA COMMAND LINE CHE CI PERMETTE DI
+	INTERAGIRE CON METASPLOIT
+
+
+	========================================
+	msfconsole
+
+	msf >
+	========================================
+
+
+ DA QUI PUOI USARE NMAP PER ATTACCARE LA METASPLOITABLE:
+
+
+	=============================================
+	msf > nmap -v -sV 20.0.0.3 -oA metasploitable
+	
+	# ESEMPIO
+	msf > nmap -v -sV 20.0.0.3 -oA metasploitable
+
+	# DB_NMAP SOSTITUISCE -oA
+	msf > db_nmap -v -sV 20.0.0.3 metasploitable
+	=============================================
+
+
+ LEGENDA:
+
+
+	===========================================
+	-v = MODALITA' VERBOSE
+	-sV =	SONDA PORTE APERTE PER
+		DETERMINARE INFO SULLA
+		VERSIONE/SERVIZIO
+	-oA NOME = OUTPUT IN TRE FORMATI PRINCIPALI
+	===========================================
+
+
+ PUOI OTTENERE LA LISTA DEI SERVIZI CON IL COMANDO "SERVICES":
+
+
+	=================================================
+	msf > services
+
+
+	# MAGGIORI DETTAGLI SU UN SERVIZIO IN PARTICOLARE
+	msf > services -p PORTA -c NOMI,DEI,SERVIZI
+
+	# ESEMPIO
+	msf > services -p 80 -c name,port,proto
+	=================================================
+
+
+ RISORSE:
+
+
+	======================================================================
+	https://www.offensive-security.com/metasploit-unleashed/port-scanning/
+	======================================================================
+
+
+=======================================================================
