@@ -1,0 +1,34 @@
+=======================================================================
+
+ REQUISITI: CONNESSIONE AD INTERNET, NMAP O ZENMAP
+
+=======================================================================
+
+
+ TRAMITE L'UTILIZZO DI NMAP, POSSIAMO IDENTIFCARE IL S.O.:
+
+
+	===========================
+	nmap -O INDIRIZZOIP_O_HOST
+	===========================
+
+
+ LEGENDA:
+
+
+	===================================================
+	-O = TROVA IL SISTEMA OPERATIVO
+	--osscan-limit = LIMITA LA RICERDA DELL'OS
+	--osscan-guess = SCANNERIZZA IN MODO AGGRO PER L'OS
+	===================================================
+
+
+ RISORSE:
+
+
+	=============================================
+	https://nmap.org/man/it/man-os-detection.html
+	=============================================
+
+
+=======================================================================
