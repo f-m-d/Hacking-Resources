@@ -1,0 +1,44 @@
+=======================================================================
+
+ REQUISITI: CONNESSIONE AD INTERNET, MSFCONSOLE, METASPLOIT, NMAP
+
+=======================================================================
+
+
+ UTILIZZANDO MSFCONSOLE PER EFFETTUARE LO SCAN,
+ A SEGUITO DI UNA SCANSIONE CON NMAP:
+
+
+	==============================================
+	msfconsole
+
+	msf >
+
+	# ESEMPIO DI SCAN PER OTTENERE DEI SERVIZI
+	msf > db_nmap -v -sS -O INDIRIZZOIP_O_DOMINIO
+
+	# USANDO "services" cerchiamo la porta di HTTP
+	msf > services
+	==============================================
+
+
+ IN METASPLOIT UN MODULO PER TROVARE LA VERSIONE DEL WEB SERVER:
+
+
+	==============================================================
+	# CERCO IL MODULO
+	msf > search http_version
+	
+	# UTILIZZO IL MODULO DALLA PATH, OTTENUTA IN PRECEDENZA
+	msf > use auxiliary/scanner/http/http_version
+	==============================================================
+
+
+ UNA VOLTA USATO IL MODULO, E' POSSIBILE VEDERNE LE OPZIONI CON:
+
+
+	=======================================================
+	msf auxiliary(scanner/http/http_version) > show options
+	=======================================================
+
+=======================================================================

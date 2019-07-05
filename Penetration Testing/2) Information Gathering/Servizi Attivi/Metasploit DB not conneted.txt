@@ -1,0 +1,40 @@
+=======================================================================
+
+ REQUISITI: CONNESSIONE AD INTERNET, MSFCONSOLE, METASPLOIT
+
+=======================================================================
+
+ VEDI I SERVIZI NECESSARI: MTSPLT USA POSTGRESQL
+
+	=============================
+	sudo service postgresql start
+	=============================
+
+
+ REINIZIALIZZA IL DATABASE OPPURE INIZIALIZZALO:
+
+
+	============================
+	# INIZIALIZZA IL DB DI MSF
+	sudo msfdb init
+
+	# OPPURE
+	
+	# REINIZIALIZZA IL DB DI MSF
+	sudo msfdb reinit
+	============================
+
+
+ LANCIA MSFCONSOLE ED VEDI LO STATUS DEL DB:
+
+
+	================================
+	sudo msfconsole
+	
+	msf > db_status
+
+	[*] postgresql connected to msf*
+	================================
+
+
+=======================================================================
