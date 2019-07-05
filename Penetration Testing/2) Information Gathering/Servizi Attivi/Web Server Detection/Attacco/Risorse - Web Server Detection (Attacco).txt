@@ -1,0 +1,31 @@
+=======================================================================
+
+ REQUISITI: CONNESSIONE AD INTERNET, NETCAT
+
+=======================================================================
+
+
+ USANDO NETCAT E "BANNER GRABBING", OVVERO L'OUTPUT
+ CHE SEGUE AD SEMPLICE RICHIESTA SU UNA PORTA TCP/IP:
+
+
+	=====================================
+	nc -v INDIRIZZOIP_O_HOST NUMERO_PORTA
+	# ESEMPIO
+	nc -v scanme.nmap.org 80
+	=====================================
+
+
+ PREMENDO SUCCESSIVAMENTE "INVIO", OTTERREMMO UN ERRORE
+ (ERROR HTTP 400) CON IL WEB SERVER UTILIZZATO NELLA RESPONSE.
+
+
+ LEGENDA:
+
+
+	===================================================
+	-v = MODALITA' VERBOSE
+	===================================================
+
+
+=======================================================================
