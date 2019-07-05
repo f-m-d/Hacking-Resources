@@ -1,0 +1,24 @@
+=======================================================================
+
+ REQUISITI: CONNESSIONE AD INTERNET
+
+=======================================================================
+
+
+ MITIGARE UNO SCAN NON E' UN'IMPRESA FACILE.
+ 
+ SE SI E' ALLE PRIME ARMI:
+ PUOI AFFIDARTI AD UN SERVER MANAGED ED A UN REVERSE PROXY.
+
+ SE HAI LE COMPETENZE NECESSARIE:
+ INSTALLARE E CONFIGURARE IDS (SNORT, SURICATA ETC.)
+
+
+	============================================================
+	https://www.snort.org
+	https://suricata-ids.org/
+	https://www.hackingarticles.in/detect-nmap-scan-using-snort/
+	============================================================
+
+
+=======================================================================
