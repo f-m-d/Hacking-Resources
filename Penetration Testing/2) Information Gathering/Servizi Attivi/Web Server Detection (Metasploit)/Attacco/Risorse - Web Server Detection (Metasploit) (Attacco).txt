@@ -37,8 +37,15 @@
  UNA VOLTA USATO IL MODULO, E' POSSIBILE VEDERNE LE OPZIONI CON:
 
 
-	=======================================================
+	=============================================================
 	msf auxiliary(scanner/http/http_version) > show options
-	=======================================================
+
+	# SETTA I PARAMETRI, OTTENUTI PRECEDENTEMENTE	
+	msf auxiliary(scanner/http/http_version) > set RHOST IP_O_DOM
+
+	# UTILIZZA IL MODULO CON "run"
+	msf auxiliary(scanner/http/http_version) > run
+	=============================================================
+
 
 =======================================================================
