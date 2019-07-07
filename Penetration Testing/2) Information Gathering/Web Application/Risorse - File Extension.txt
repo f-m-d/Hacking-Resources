@@ -1,0 +1,18 @@
+=======================================================================
+
+ REQUISITI: CONNESSIONE AD INTERNET
+=======================================================================
+
+ ESISTONO VARI SITI PER OTTENERE INFO SULLE FILE EXTENSION.
+
+ RISORSE:
+
+
+	==========================================
+	https://fileinfo.com/extension/FILE_FORMAT
+
+	# ESEMPIO
+	https://fileinfo.com/extension/jsp
+	==========================================
+
+=======================================================================

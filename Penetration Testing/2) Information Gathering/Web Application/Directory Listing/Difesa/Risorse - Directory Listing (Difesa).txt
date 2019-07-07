@@ -1,0 +1,29 @@
+=======================================================================
+
+ REQUISITI: CONNESSIONE AD INTERNET, FILECONFIG DEL WEB SERVER
+
+=======================================================================
+
+
+ QUESTO TIPO DI ATTACCO ACCADE PERCHE' IL SERVER CERCA DI
+ "DARE UNA MANO" AL CLIENT, IL QUALE NON RIESCE AD APPRODARE
+ NELLA INDEX.
+
+
+ LE SOLUZIONI SONO SPESSO DUE:
+	
+
+	================================================
+	- CREARE UN INDEX.HTML VUOTO
+	- AGGIUNGERE UNA REGOLA IN .HTACCESS PER EVITARE
+	================================================
+
+
+ REGOLA .HTACCESS (IN APACHE), DA AGGIUNGERE ALLA ROOT:
+
+
+	================
+	Options -Indexes
+	================
+
+=======================================================================

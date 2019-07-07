@@ -1,0 +1,44 @@
+=======================================================================
+
+ REQUISITI: CONNESSIONE AD INTERNET, DIRB
+
+=======================================================================
+
+
+ TRAMITE IL TOOL "DIRB", POSSIAMO ENUMERARE LE DIRECTORY
+ PRESENTI SUL SERVER DA ATTACCARE:
+
+	==============================================================
+	# INSTALLIAMO DIRB
+	apt install dirb
+
+	man dirb
+
+	
+	# NECESSITA SOLO DI CHI ATTACCARE
+	dirb INDIRIZZOIP_O_DOMINIO	
+
+	# ESEMPIO
+	dirb http://20.0.0.4
+
+
+	# PUOI USARE UNA WORDLIST DI DIRECTORY USATE
+	# DAI VARI WEB SERVER
+	dirb INDIRIZZOIP_O_DOMINIO /WORDLIST/DA/USARE
+
+	# ESEMPIO
+	dirb http://20.0.0.4 /usr/share/dirb/wordlist/vulns/apache.txt
+
+
+	# PUOI SCEGLIERE L'USER AGENT, UTILE CONTRO GLI IDS
+	dirb INDIRIZZOIP_O_DOMINIO -a "USER_AGENT"
+
+	# ESEMPIO
+	dirb http://20.0.0.4 -a "Mozilla/5.0 (Windows NT 6.3; WOW64)
+	AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.177
+	Safari/537.36"
+	==============================================================
+
+
+
+=======================================================================
