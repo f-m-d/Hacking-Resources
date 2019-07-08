@@ -1,0 +1,38 @@
+=======================================================================
+
+ REQUISITI: CONNESSIONE AD INTERNET, WHATWEB
+
+=======================================================================
+
+
+ TRAMITE "WHATWEB", POSSIAMO INDICARE QUALE HOST CONTROLLARE.
+ E' MOLTO COMPLETO E PUO' DARE INFO SU LINGUAGGI, FRAMEWORK
+ E SCRIPTS (OLTRE AL CMS):
+
+
+	==============================================================
+	# INSTALLA WHATWEB
+	apt install whatweb
+
+	whatweb -h
+	
+
+	# NECESSITA SOLO DI CHI ATTACCARE
+	whatweb INDIRIZZOIP_O_DOMINIO	
+
+	# ESEMPIO
+	whatweb hacklog.net
+	==============================================================
+
+
+ RISORSE:
+
+
+	==================================
+	https://whatcms.org/
+	https://www.wappalyzer.com/
+	https://github.com/Dionach/CMSmap
+	==================================
+
+
+=======================================================================

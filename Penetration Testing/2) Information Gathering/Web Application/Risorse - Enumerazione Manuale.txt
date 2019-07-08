@@ -1,0 +1,23 @@
+=======================================================================
+
+ REQUISITI: CONNESSIONE AD INTERNET
+
+=======================================================================
+
+ SPESSE VOLTE, LE URL POTREBBERO NASCONDERE L'ESTENSIONE:
+ I MOTIVI SONO SPESSO "USER FRIENDLY" E "SEO"
+
+
+ ESEMPIO:
+
+
+	==============================================
+	# COME VIENE RICHIESTO IL POST
+	http://sito.com/post.php?id=5
+
+	# COME VIENE MOSTRATO, PER SEO O USER FRIENDLY
+	https://sito.com/post/5/hello-world
+	==============================================
+
+
+=======================================================================
