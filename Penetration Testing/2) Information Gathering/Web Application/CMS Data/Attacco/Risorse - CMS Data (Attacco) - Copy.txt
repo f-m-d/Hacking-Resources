@@ -1,0 +1,22 @@
+=======================================================================
+
+ REQUISITI: CONNESSIONE AD INTERNET
+
+=======================================================================
+
+
+ ESISTONO DIVERSI MODI PER ATTACCARE UN CMS:
+
+
+	==============================================================
+	- UTENTI: E' POSSIBILE OTTENERE LA LISTA UTENTI
+
+	- PLUGIN:	VERIFICARE LA PRESENZA DI CARTELLE NEL SITO,
+			LE QUALI CONTENGONO I PLUGIN
+			(E FORSE README E CHANGELOG)
+
+	- TEMI: E' POSSIBILE (IN ALCUNI CASI) ENUERARE I TEMI
+	==============================================================
+
+
+=======================================================================

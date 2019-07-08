@@ -1,0 +1,34 @@
+=======================================================================
+
+ REQUISITI: CONNESSIONE AD INTERNET
+
+=======================================================================
+
+
+ TROVARE UNA COPPIA USERNAME/PASSWORD E' UN OTTIMA COSA.
+ ESISTONO VARIE TECNICHE PER OTTENERE DELLE INFORMAZIONI:
+
+
+	==============================================================
+	- MESSAGGI D'ERRORE: 	ERRORI DI LOGIN, DEL TIPO:
+				"USERNAME E PASSWORD NON COINCIDONO"
+				AL POSTO DI:
+				"USERNAME NON TROVATO"
+				
+	- RECUPERO PASSWORD/:	I RECUPERO PASSWORD POSSONO AIUTARE
+	  REGISTRAZIONE:	A CAPIRE SE UNA MAIL O USERNAME
+				ESISTE. LO STESSO PUOI FARLO PROVANDO
+				A REGISTRARE UN ACCOUNT.
+
+	- ESTRAPOLAZIONE URL:	ALCUNI CMS POSSIEDONO UNA QUERY-STRING
+				PER VISUALIZZARE IL PROFILO UTENTE.
+				LA CHIAVE E' SPESSO AUTOINCREMENTALE.
+				(PROVA USER=1 PER ADMIN)
+
+	- RSS/AUTHOR:		PUOI TROVARE UTENTI TRA I COMMENTI.
+				PUOI ESTRAPOLARE ATTRAVERSO META-TAG
+				O ENUMERARLE ATTRAVERSO GLI RSS.
+	==============================================================
+
+
+=======================================================================
