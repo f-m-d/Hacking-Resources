@@ -1,0 +1,72 @@
+=======================================================================
+
+ REQUISITI: CONNESSIONE AD INTERNET, WPSCAN, WPSEKU
+
+=======================================================================
+
+
+ CON "WPSCAN" POSSIAMO TENTARE UN
+ ENUMERAZIONE DEGLI ELEMENT DI WORDPRESS
+ (UTENTI, TEMI, PLUGIN)
+
+
+	===========================================
+	# INSTALLA WPSCAN
+	apt install wpscan
+
+	wpscan --help
+	
+
+	# NECESSITA SOLO DI CHI ATTACCARE
+	wpscan --url INDIRIZZOIP_O_DOMINIO	
+
+	# ESEMPIO
+	wpscan --url hacklog.net
+
+	# ENUMERO (U)SERS, (T)EMPLATES E (P)LUGINS
+	wpscan --url hacklog.net --enumerate utp	
+	===========================================
+
+
+ LEGENDA:
+
+
+	===========================================	
+	--url = URL DI CHI ATTACCARE
+	--enumerate PUOI ENUMERARE DIVERSI ELEMENTI
+	===========================================
+
+
+
+ ALTRIMENTI, PUOI USARE WPSEKU:
+
+
+	============================================
+	python wpseku.py -t INDIRIZZOIP_O_DOMINIO -r
+	============================================
+
+
+ LEGENDA:
+
+
+	===========================================	
+	-t = TIMEOUT NEL CASO NON RISPONDA
+	-r = GENERA UN USER AGENT CASUALE
+	===========================================
+
+
+ ENTRAMBI I TOOL NON SOLO ENUMERANO E RACCOLGONO INFO:
+ EFFETTUA CONTROLLI PER LA VERSIONE E LE VULNERABILITA'
+ (VEDI LINK SOTTO: I PROGRAMMI ATTINGONO DA LI').
+ CI SARA' UTILE PER I VARI ATTACCHI.
+
+
+ RISORSE:
+
+
+	================================
+	https://github.com/m4ll0k/WPSeku
+	https://wpvulndb.com/api
+	================================
+
+=======================================================================
