@@ -1,0 +1,68 @@
+=======================================================================
+
+ REQUISITI: CONNESSIONE AD INTERNET, JOOMSCAN, JOOMLASCAN
+
+=======================================================================
+
+
+ CON "JOOMSCAN" POSSIAMO TENTARE UN
+ ENUMERAZIONE DEGLI ELEMENT DI JOOMLA:
+
+
+	===========================================
+	# INSTALLA WPSCAN
+	joomscan --help
+	
+
+	# NECESSITA SOLO DI CHI ATTACCARE
+	joomscan -u INDIRIZZOIP_O_URL	
+
+	# ESEMPIO
+	joomscan -u hacklog.net
+
+	# ENUMERO LE COMPONENTI E RANDOM USER-AGENT
+	joomscan -u hacklog.net	-r -ec
+	===========================================
+
+
+ LEGENDA:
+
+
+	===========================================	
+	-u = URL DI CHI ATTACCARE
+	-r = RANDOM USER AGENT
+	-ec = ENUMERAZIONE COMPONENTI
+	===========================================
+
+
+
+ ALTRIMENTI, PUOI USARE "JOOMLASCAN" (DI ADREA DRAGHETTI):
+
+
+	=============================================
+	# RICHIEDE BEAUTIFULSOUP4
+	# easy_install beautifulsoup4
+	# OPPURE
+	# pip install beautifulsoup4
+
+	python joomlascan.py -u INDIRIZZOIP_O_DOMINIO
+	=============================================
+
+
+ LEGENDA:
+
+
+	===========================================	
+	-u = URL DA ATTACCARE
+	===========================================
+
+
+ RISORSE:
+
+
+	=====================================
+	https://github.com/rezasp/Joomscan
+	https://github.com/drego85/JoomlaScan
+	=====================================
+
+=======================================================================

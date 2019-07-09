@@ -12,8 +12,6 @@
 
 	===========================================
 	# INSTALLA WPSCAN
-	apt install wpscan
-
 	wpscan --help
 	
 
