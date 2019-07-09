@@ -1,0 +1,42 @@
+=======================================================================
+
+ REQUISITI: CONNESSIONE AD INTERNET, DRUPWN
+
+=======================================================================
+
+
+ CON "WPSCAN" POSSIAMO TENTARE UN
+ ENUMERAZIONE DEGLI ELEMENTI DI DRUPAL:
+
+
+	===========================================
+	# INSTALLA WPSCAN
+	# pip3 install -r requirements.txt
+	python3 drupal -h
+	
+
+	# NECESSITA SOLO DI CHI ATTACCARE
+	python3 drupwn enum INDIRIZZOIP_O_URL	
+
+	# ESEMPIO
+	python3 drupwn enum hacklog.net	
+	===========================================
+
+
+ LEGENDA:
+
+
+	===========================================	
+	enum = ENUMERA GLI ELEMENTI
+	===========================================
+
+
+ RISORSE:
+
+
+	=================================
+	https://github.com/immunIT/drupwn
+	=================================
+
+
+=======================================================================
