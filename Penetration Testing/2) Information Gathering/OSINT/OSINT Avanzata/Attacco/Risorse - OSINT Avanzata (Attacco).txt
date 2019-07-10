@@ -1,0 +1,22 @@
+=======================================================================
+
+ REQUISITI: CONNESSIONE AD INTERNET
+
+=======================================================================
+
+ 
+ I PROCESSI DI OSINT POSSONO ESSERE APPLICATI A DIVERSI CAMPI:
+ GIORNALISMO, INVESTIGAZIONE, AFFARI ETC.
+
+
+ RISORSE:
+
+
+	=======================================
+	https://osintframework.com/
+	https://github.com/jivoi/awesome-osint
+	https://inteltechniques.com/buscador/
+	=======================================
+
+
+=======================================================================
