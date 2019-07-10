@@ -1,0 +1,25 @@
+=======================================================================
+
+ REQUISITI: CONNESSIONE AD INTERNET
+
+=======================================================================
+
+ 
+ ESISTONO SERVIZI ED ARCHIVI CHE CONSERVANO I DATI,
+ ANCHE DOPO ESSERE STATI RIMOSSI DALLA RETE.
+
+ AVERE INFO SUL VECCHIO SITO CI PERMETTE DI SCOPRIRE
+ INFORMAZIONI SU DIPENDENTI, CONTATTI E TECNOLOGIE.
+
+
+ RISORSE:
+
+
+	============================
+	https://archive.org/
+	https://www.screenshots.com
+	https://archive.fo/
+	https://www.pagefreezer.com/
+	============================
+
+=======================================================================
