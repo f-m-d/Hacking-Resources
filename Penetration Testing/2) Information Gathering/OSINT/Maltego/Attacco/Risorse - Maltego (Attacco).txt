@@ -1,0 +1,31 @@
+=======================================================================
+
+ REQUISITI: CONNESSIONE AD INTERNET, MALTEGO + ACCOUNT
+
+=======================================================================
+
+ 
+ MALTEGO: TOOL USATO PER L'OSINT E LA FORENSIC
+
+
+ PER USARLO, SCARICHIAMO LA VERSIONE CHE VOGLIAMO DAL SITO:
+ PER CONVENZIONE MOSTRO L'UTILIZZO DI QUELLA "COMMUNITY EDITION"
+ UNA VOLTA SCARICATO, CI CHIEDERA' IL LOGIN:
+ BASTA REGISTRARSI SU PATERVA
+
+
+ UNA VOLTA LOGGATI POSSIAMO COMINCIARE A CREARE I GRAFI:
+ MALTEGO SI BASA SU ENTITA', TRANSFORM E MACHINES, MODULI.
+ LE TRANSFORMATION E MACHINE VENGONO ESEGUITE SULLE ENTITA',
+ LE QUALI GENERANP DATI QUANDO E' POSSIBILE.
+
+
+ RISORSE:
+
+
+	==========================================================
+	https://www.paterva.com/buy/maltego-clients/maltego-ce.php
+	==========================================================
+
+
+=======================================================================
