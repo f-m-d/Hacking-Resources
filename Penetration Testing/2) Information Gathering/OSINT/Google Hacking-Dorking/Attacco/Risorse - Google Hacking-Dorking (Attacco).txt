@@ -1,0 +1,33 @@
+=======================================================================
+
+ REQUISITI: CONNESSIONE AD INTERNET
+
+=======================================================================
+
+ 
+ GOOGLE DORKS: QUERY UTILI DI GOOGLE
+
+ ESISTONO VARI DATABASE DI GOOGLE DORKS,
+ ECCO UN ESEMPIO DI UNA DORK:
+
+
+	=========================================================
+	intitle:"Index Of" intext:.ftpconfig
+
+	# OPPURE
+
+	"#-Frontpage-" inurl:administrators.pwd
+	=========================================================
+
+
+
+
+ RISORSE:
+
+
+	=========================================================
+	https://www.exploit-db.com/google-hacking-database
+	=========================================================
+
+
+=======================================================================
