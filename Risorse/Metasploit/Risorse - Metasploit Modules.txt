@@ -1,0 +1,26 @@
+=========================================================================
+
+ Metasploit Database:
+ https://www.rapid7.com/db/modules
+
+=========================================================================
+
+ Common Vulnerability Exposure:
+ https://cve.mitre.org/
+
+=========================================================================
+
+ Open Sourced Vulnerability Database:
+ https://blog.osvdb.org/
+
+=========================================================================
+
+ BugtraQ:
+ http://bugtraq-team.com/ (BUGTRAQ)
+
+=========================================================================
+
+ Microsoft Security Bulletin:
+ https://technet.microsoft.com/en-us/security/bulletins.aspx
+
+=========================================================================
