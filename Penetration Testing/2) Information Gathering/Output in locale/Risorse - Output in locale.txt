@@ -1,0 +1,36 @@
+=======================================================================
+
+ REQUISITI: CONNESSIONE AD INTERNET
+
+=======================================================================
+
+ 
+ QUANDO RICEVIAMO UNA RESPNSE HTTP, LA RICEVIAMO IN LOCALE:
+ PER QUESTO POSSIAMO MODIFICARE I TAG CON "ISPEZIONA ELEMENTO".
+
+ STUDIANDO IL SORGENTE ED I COMMENTI, PUOI OTTENERE INFO UTILI:
+
+
+	===========================
+	- EDITOR
+	- STRUTTURA DELLE DIRECTORY
+	- ENUMERAZIONE TEMI/PLUGIN
+	- ETC.
+	===========================
+
+
+ MOLTE INFORMAZIONI DOVRESTI SALVARLE A MANO:
+ MAGARI USANDO I TOOL IN MODO SEPARATO E POI
+ UNENDO I RISULTATI.
+
+ PER UN ATTACCO MIRATO E' CONSIGLIABILE CONOSCERE:
+
+	
+	==============================
+	- VERSIONI DEI LINGUAGGI
+	- COMPETENZE DEI PROGRAMMATORI
+	- TECNOLOGIE USATE
+	==============================
+
+
+=======================================================================
