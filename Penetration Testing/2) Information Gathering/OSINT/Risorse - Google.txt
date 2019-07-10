@@ -1,0 +1,196 @@
+=======================================================================
+
+ REQUISITI: CONNESSIONE AD INTERNET
+
+=======================================================================
+
+ 
+ GOOGLE IMPLEMENTA DETERMINATE FUNZIONI PER
+ ESTRAPOLARE DATI DAI SITI (TRAMITE OPERATORI)
+
+
+ PUOI DISATTIVARE I "RISULTATI PRIVATI",
+ IN MODO DI CERCARE I RISULTATI GENERALI:
+
+
+	==================================
+	https://www.google.com/preferences
+	==================================
+
+
+ ESEMPI DI OPERATORI DI CONFRONTO DI GOOGLE:
+
+
+	==================================================
+	# OPERATORE site: FILTRA IN BASE AD UN DOMINIO
+
+	# CERCA TUTTE LE PAGINE DEL DOMINIO
+	site:www.hacklog.net
+
+	# CERCA TUTTE LE PAGINE DEL DOMINIO E SOTTODOMINIO
+	site:hacklog.net
+	==================================================
+
+
+	==================================================
+	# OPERATORE inurl/allinurl: FILTRA IN BASE A
+	# STRINGHE CONTENUTE NELL'URL DI UN SITO
+
+	# CERCA LA STRINGA NELLE URL
+	inurl:hacklog-volume-1-anonimato
+
+	# IDENTICO AL COMANDO SOPRA CITATO
+	allinurl:hacklog-volume-1-anonimato
+	==================================================
+
+
+	==================================================
+	# OPERATORE intitle/allintitle: FILTRA IN BASE A
+	# STRINGHE CONTENUTE NEL TAG <title>
+
+	# CERCA LA STRINGA NEL TITLE DEI SITI
+	intitle:hacklog
+
+	# IDENTICO AL COMANDO SOPRA CITATO
+	allintitle:hacklog volume 1
+	==================================================
+
+
+	==================================================
+	# OPERATORE inanchor/allinanchor: FILTRA IN BASE A
+	# SITI CHE HANNO LINK CON LA PAROLE CHIAVE INDICATA
+
+	# CERCA PAGINE CHE VENGONO LINKATE DA SITI CON
+	# IL TERMINE HACKLOG
+	inanchor:hacklog
+
+	# IDENTICO AL COMANDO SOPRA CITATO
+	allinanchor:hacklog volume 1
+	==================================================
+
+
+	==================================================
+	# OPERATORE intext/allintext: FILTRA IN BASE A
+	# STRINGHE CONTENUTE NEL TAG <body>
+
+	# CERCA LA STRINGA NEL BODY DEI SITI
+	intext:hacklog
+
+	# IDENTICO AL COMANDO SOPRA CITATO
+	allintext:hacklog volume 1
+	==================================================
+
+
+	==================================================
+	# OPERATORE ext/filetype: PERMETTE DI CERCARE
+	# FILE CON UNA DETERMINATA ESTENZIONE
+
+	# CERCA FILE DI TIPO PDF PER LA RICERCA "HACKLOG"
+	hacklog ext:pdf
+
+	# IDENTICO AL COMANDO SOPRA CITATO
+	hacklog filetype:pdf
+	==================================================
+
+
+	==================================================
+	# OPERATORE ext/filetype: PERMETTE DI CERCARE
+	# FILE CON UNA DETERMINATA ESTENZIONE
+
+	# CERCA FILE DI TIPO PDF PER LA RICERCA "HACKLOG"
+	hacklog ext:pdf
+
+	# IDENTICO AL COMANDO SOPRA CITATO
+	hacklog filetype:pdf
+	==================================================
+
+
+	==================================================
+	# OPERATORE cache: PERMETTE DI ACCEDERE AD
+	# UNA VERSIONE PRECEDENTE, MEMORIZZATA DAL SITO
+
+	# CERCA WWW.HACKLOG.NET NELLA CACHE DI GOOGLE
+	cache:www.hacklog.net
+	==================================================
+
+
+=======================================================================
+
+
+ OPERATORI INTELLIGENTI DI GOOGLE:
+
+
+	====================================================
+	# CERCARE IN UN SOCIAL
+	@hacklog
+	====================================================
+
+
+	====================================================
+	# CERCARE PREZZO DI UN PRODOTTO
+	smartphone €400
+	====================================================
+
+
+	====================================================
+	# CERCARE PREZZO VARIABILE DI UN PRODOTTO
+	smartphone €200..€400
+	====================================================
+
+
+	====================================================
+	# CERCARE UN HASHTAG
+	#hacklog
+	====================================================
+
+
+	====================================================
+	# CERCARE UNA CORRISPONDENZA ESATTA
+	"Hacklog, Volume 1:Anonimato"
+	====================================================
+
+
+	====================================================
+	# ESCLUDERE UNA CHIAVE DI RICERCA (COL SIMBOLO MENO)
+	hacklog -reborn
+	====================================================
+
+
+	====================================================
+	# ACCETTARE QUALSIASI CARATTERE (CON *)
+	site:www.*.com
+	====================================================
+
+
+=======================================================================
+
+
+ OPERATORI LOGICI:
+
+
+	====================================================
+	# OPERATORE AND: QUANDO ENTRAMBI SONO VALIDI
+	"hacklog" AND site:github.com
+	====================================================
+
+
+	====================================================
+	# OPERATORE OR: QUANDO ALMENO UNO DEI DUE E' VALIDO
+	"hacklog" OR "inforge"
+	"hacklog" | "inforge"
+	====================================================
+
+
+=======================================================================
+
+
+ RISORSE:
+
+
+	=========================================================
+	https://it.wikipedia.org/wiki/Comandi_di_Google
+	https://support.google.com/websearch/answer/2466433?hl=it
+	=========================================================
+
+
+=======================================================================

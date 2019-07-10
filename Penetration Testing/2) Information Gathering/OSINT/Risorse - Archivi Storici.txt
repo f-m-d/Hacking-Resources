@@ -8,6 +8,7 @@
  ESISTONO SERVIZI ED ARCHIVI CHE CONSERVANO I DATI,
  ANCHE DOPO ESSERE STATI RIMOSSI DALLA RETE.
 
+
  AVERE INFO SUL VECCHIO SITO CI PERMETTE DI SCOPRIRE
  INFORMAZIONI SU DIPENDENTI, CONTATTI E TECNOLOGIE.
 
@@ -21,5 +22,6 @@
 	https://archive.fo/
 	https://www.pagefreezer.com/
 	============================
+
 
 =======================================================================
