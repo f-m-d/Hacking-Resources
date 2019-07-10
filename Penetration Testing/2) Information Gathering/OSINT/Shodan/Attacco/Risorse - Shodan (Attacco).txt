@@ -1,0 +1,30 @@
+=======================================================================
+
+ REQUISITI: CONNESSIONE AD INTERNET
+
+=======================================================================
+
+ 
+ SHODAN: IL GOOGLE DEGLI HACKER
+
+
+ PUOI TROVARE DI TUTTO, PRATICAMENTE QUALSIASI COSA
+ POSSEGGA UNA SCHEDA DI RETE.
+ RILASCIA ANCHE DELLE API (UTILI PER MALTEGO)
+
+
+ INOLTRE PUOI GUARDARE I GRAFICI:
+ RIPORTA STATISTICHE SU I SOFTWARE PIU' UTILIZZATI,
+ VULNERABILITA' PIU' COMUNI E TANTO ALTRO
+
+
+
+ RISORSE:
+
+
+	======================
+	https://www.shodan.io/
+	======================
+
+
+=======================================================================
