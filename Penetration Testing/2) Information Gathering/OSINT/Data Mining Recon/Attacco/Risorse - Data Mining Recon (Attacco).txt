@@ -1,0 +1,35 @@
+=======================================================================
+
+ REQUISITI: CONNESSIONE AD INTERNET, BLUTO + API KEY
+
+=======================================================================
+
+ E' POSSIBILE EFFETTUARE DATA MINING CON BLUTO:
+ INCROCIA DIVERSI FONTI (LINKEDIN, GOOGLE, BING ETC.)
+ E' UN TOOL "AIO", OVVERO UN "ALL IN ONE".
+
+
+ OFFRE:
+
+	==============================================================
+	# INSTALLIAMO BLUTO
+	sudo pip install bluto
+
+	# UTILIZZO
+	bluto
+
+	# UTILIZZO CON API
+	bluto --api APIKEY_DI_HUNTERIO
+	==============================================================
+
+
+
+ RISORSE:
+
+
+	===================================
+	https://github.com/darryllane/Bluto
+	===================================
+
+
+=======================================================================
