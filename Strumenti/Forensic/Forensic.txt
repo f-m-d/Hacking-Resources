@@ -1,0 +1,26 @@
+======================================================================
+
+ 7-ZIP (to read archives):
+ https://www.7-zip.org/
+
+======================================================================
+
+ OSFMount (to mount .DD files on Windows):
+ https://www.osforensics.com/tools/mount-disk-images.html
+
+======================================================================
+
+ RECUVA: File Recovery
+ https://www.ccleaner.com/recuva
+
+======================================================================
+
+ JPGSnoop (show editing of photo)
+ https://jpegsnoop.it.softonic.com/
+
+======================================================================
+
+ FotoForensics (show editing of photo)
+ http://fotoforensics.com/
+
+======================================================================
