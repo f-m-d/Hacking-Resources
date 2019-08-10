@@ -34,6 +34,7 @@
 
 	==============================================
 	https://whois.net/
+	https://www.netcraft.com/
 	https://www.whois.com/whois/
 	https://whois.icann.org/en/
 	https://www.register.it/domains/whois.html
