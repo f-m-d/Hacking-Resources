@@ -5,12 +5,12 @@
   
   
 # Il repository offre diverse cartelle dove si potranno trovare:
-    - Strumenti utili da installare (Antimalware, Antispyware, Antirootkit etc.)
-    - Svariati tipi attacchi e contromisure (Divisi in base alle fasi di testing)
-    - Risorse esterne (Documentazioni, Siti esterni, Standards etc.)
+    - strumenti utili da installare (antimalware, antispyware, antirootkit, ecc.);
+    - svariati tipi di attacchi e contromisure (divisi in base alle fasi di testing);
+    - risorse esterne (documentazioni, siti esterni, standard, ecc.).
 
 
 
-# Per qualsiasi consiglio, correzione o aggiunta: puoi contattarmi sui vari canali
+# Per qualsiasi consiglio, correzione o aggiunta, puoi contattarmi sui seguenti canali:
 
-# Email: dauriafrancescomaria@gmail.com 
+# Email: dauriafrancescomaria@gmail.com
